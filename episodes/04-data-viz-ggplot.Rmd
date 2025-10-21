@@ -358,7 +358,7 @@ ggplot(data = booksHighUsage, aes(x = call_class, y = tot_chkout)) +
 
 :::::::::::::::::::::::::
 
-- Add color to the `geom_jitter` argument on your boxplot according to the item `subCollection`. *Hint:* If you get the error `object 'subCollection' not found` or `invalid color name 'subCollection'` then consider `color` as an aesthetic mapping.
+- Add color to the `geom_jitter` argument on your violin plot according to the item `subCollection`. *Hint:* If you get the error `object 'subCollection' not found` or `invalid color name 'subCollection'` then consider `color` as an aesthetic mapping.
 
 :::::::::::::::  solution
 
