@@ -211,7 +211,7 @@ Library of Congress call number classification.
 
 ## **Applying a different geom**
 
-This same exact data can be visualized in a couple different ways by replacing the geom\_histogram() function with either `geom_density()` (adding a logarithmic x scale) or `geom_freqpoly()`:
+This same exact data can be visualized in a couple different ways by replacing the geom\_bar() function with either `geom_density()` (adding a logarithmic x scale) or `geom_freqpoly()`:
 
 ```{r, purl=FALSE}
 # create a density plot
