@@ -109,7 +109,7 @@ ggplot(data = <DATA>, mapping = aes(<MAPPINGS>)) +  <GEOM_FUNCTION>()
 - The `mapping` argument defines the variables mapped to various aesthetics of the plot, e.g. the x and y axis.
 - The `geom_function` argument defines the type of plot, e.g. barplot, scatter plot, boxplot.
 
-::::::::::::::::::::::::::::::::::::::::::::; callout
+:::::::::::::::::::::::::::::::::::::::::  callout
 
 ## `ggplot2` versus `ggplot`
 
